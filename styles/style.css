@@ -1,0 +1,201 @@
+
+body{
+    background-color: #222831;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+	//display: flex;
+	//align-items: center;
+	justify-content: space-between;
+	height: auto;
+	//padding: 15px 10px;
+}
+.container--nav{
+    background-color: #DDDDDD;
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 90%;
+}
+.main--nav{
+    width:1000px;
+}
+.main--header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__logo{  
+    padding: 5px;
+    margin-left: 150px;    
+    color: #222831;
+    width: auto;
+    height: auto;
+}
+.container__logo h1{
+    font-size: 1.8em;
+}
+.main--nav{
+    padding-right: 50px;
+}
+.menu{
+    display: flex;
+	padding-left: 0;
+	list-style: none;
+	margin: 0;
+    margin-left: 350px;
+}
+.menu--item{
+    margin: 25px 30px;	
+	position: relative;	
+    padding-bottom: 5px;
+}
+.menu__link{
+    font-size: 1.7em;
+	font-weight: bold;
+	line-height: 22px;
+	color: #292c2f;
+	text-decoration: none;	
+}
+.menu__link:hover{
+    text-decoration: underline;
+    color: #9D9D9D;
+}
+.menu--caja{
+    border: 2px solid #222831;
+    margin-left: 50px;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19);
+    //padding: 20px;
+    border-radius: 30px;
+    
+}
+.menu--caja a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #222831;
+    font-size: 1.2em;
+}
+/* FIN DE CODIGO NAV */
+
+/* INICIO DEL HOME */
+.container--home{
+    margin-left: 400px;
+    margin-top: 30px;
+    //background-color: #000;
+    width:900px;
+    height: auto;
+}
+.container--home .estilo--img{
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+.container--home h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+}
+.container--home h3{
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* INICIO CARDS*/
+.container--skills{
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 90px;
+    //background-color: #DDDDDD;
+    height: auto;
+    width: 90%;
+}
+.container--titles h1{
+    color: #DDDDDD;
+    font-size: 2.5em;
+}
+.container--titles h3{
+    color: #DDDDDD;
+    font-size: 1em;
+}
+.container--cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 10px;
+}
+.container--cards .card1{
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    border: 2px solid #e9f1fd;
+}
+.container--cards  .icon{
+    color: #222831;  
+    margin-left: 20px;   
+    margin-right: 0; 
+    margin-top: 10px;   
+    font-size: 60px;    
+    text-align: left;
+}
+.des__card a{
+    text-decoration: none;
+    color: #222831;
+}
+.container--cards .card2{
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    border: 2px solid #e9f1fd;
+    margin-left: 210px;
+}
+.container--cards .card3{
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    border: 2px solid #e9f1fd;
+    margin-left: 400px;
+}
+.container--cards .card4{
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    border: 2px solid #e9f1fd;
+    margin-left: 610px;
+}
+
+/*Incio contactame*/
+.container--contact{
+    
+    margin-top: 110px;
+    margin-left: 90px;
+    width: 90%;
+}
+.container--contact h3{
+    margin-top: 55px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 2.5em; 
+}
+form{
+	width: 700px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #DDDDDD;
+}
+form input[type="text"]{
+    width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	
+}
